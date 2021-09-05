@@ -1,0 +1,32 @@
+<BarGraph>:
+	id: tpo
+	FloatLayout:
+		FloatLayout:
+			canvas:
+				Color: 
+					rgb: utils.get_color_from_hex("A3CACA")
+				Rectangle:
+					size: self.size
+					pos: self.pos
+
+
+		Graph:
+            
+            id: graph_1
+            background_color: 231/255, 231/255,231/255, 1
+
+            xlabel: 'X'
+            ylabel: 'Y'
+            x_ticks_minor: 2
+
+            y_ticks_major: 2
+            y_grid_label: True
+            x_grid_label: True
+            padding: 0
+            x_grid: True
+            y_grid: True
+            xmin:0
+            xmax:10
+            ymin:0
+            ymax:1
+         	
